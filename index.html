@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurant Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css"
+      integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+      integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img
+          src="./assets/images/logo-hero.png"
+          alt="Restaurant Logo"
+          class="hero-logo"
+        />
+
+        <button class="primary-btn">Check Menu</button>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu section">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+          />
+          <h3>Signature Bowl</h3>
+          <p>Fresh ingredients and bold flavors.</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
+          />
+          <h3>Grilled Special</h3>
+          <p>Perfectly grilled to delight.</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+          />
+          <h3>Chef Favorite</h3>
+          <p>A customer favorite dish.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section">
+      <div class="about-image">
+        <img src="./assets/images/about.jpg" alt="" />
+      </div>
+
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          La Ondez Lechon is a beloved roadside lechon spot in Kalibo, Aklan,
+          serving up crispy, flavorful roasted pork that's a local favorite. We
+          keep it simple and fresh: traditional cooking for that perfect crispy
+          skin and juicy meat every time. What began as a passion for great,
+          no-fuss lechon has become a community go-to, loved for its authentic
+          taste and welcoming vibe—ideal for quick bites, family meals,
+          celebrations, or Ati-Atihan festivities.
+        </p>
+        <p>Come try why everyone says "nag kasarapan na!" 🐷🔥</p>
+        <p>
+          <strong>Location:</strong> In front of Elementary School, New Buswang,
+          Kalibo, Aklan
+        </p>
+      </div>
+    </section>
+
+    <!-- Floating Contact Button -->
+    <div class="chat-float">
+      <button class="chat-toggle" id="chatToggle">
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <div class="chat-options" id="chatOptions">
+        <a href="tel:+639704724877" class="chat-btn call">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="viber://chat?number=%2B639704724877" class="chat-btn viber">
+          <i class="fab fa-viber"></i>
+        </a>
+        <a href="https://wa.me/639704724877" class="chat-btn whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://m.me/61576749878024"
+          class="chat-btn messenger"
+          target="_blank">
+          <i class="fab fa-facebook-messenger"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="copyright">
+          © <span id="currentYear"></span> laondez Litson. All rights reserved.
+        </p>
+        <p class="credits">
+          Build by:
+          <a href="https://www.brisklabs.dev" target="_blank">
+            brisklabs.dev
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
