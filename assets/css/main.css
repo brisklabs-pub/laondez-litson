@@ -1,4 +1,13 @@
-/* RESET */
+:root {
+  /* Primary brand colors */
+  --color-primary: #e10600;       /* red / main buttons / highlights */
+  --color-accent: #ff9800;        /* orange / badges / table headers */
+  --color-text: #333333;          /* default text color */
+  --color-bg: #fafafa;            /* page background */
+  --color-white: #ffffff;          /* white text or background */
+  --color-hover: #ffe0b2;         /* hover / highlight backgrounds */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,18 +25,33 @@ body {
 
 .section {
   padding: 80px 10%;
+  text-align: center; /* center children */
 }
 
+/* Section title */
 .section-title {
-  text-align: center;
-  margin-bottom: 40px;
+  display: inline-block;
+  position: relative;
   font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 40px;
+}
+
+/* Small line under title */
+.section-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  margin: 8px auto 0;
+  border-radius: 2px;
 }
 
 .primary-btn {
   margin-top: 20px;
   padding: 14px 30px;
-  background: #e10600;
+  color: var(--color-primary);
   color: white;
   border: none;
   border-radius: 30px;
@@ -81,7 +105,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  align-items: center;
+  align-items: start;
   padding: 80px 10%;
 }
 
@@ -101,7 +125,7 @@ body {
   font-size: 2.5rem;
   margin-bottom: 20px;
   font-weight: 700;
-  color: #e10600; /* Primary red */
+  color: var(--color-primary); /* Primary red */
 }
 
 .about-text p {
@@ -119,7 +143,7 @@ body {
 .about-text .cta {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #e10600;
+  color: var(--color-primary);
 }
 
 /* Animations */
@@ -162,7 +186,6 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
 }
-
 .menu-card {
   background: white;
   border-radius: 12px;
@@ -173,32 +196,71 @@ body {
   opacity: 0;
   animation: cardAppear 1s forwards;
 }
-
 .menu-card:nth-child(2) {
   animation-delay: 0.2s;
 }
 .menu-card:nth-child(3) {
   animation-delay: 0.4s;
 }
-
 .menu-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-
 .menu-card h3 {
   padding: 15px;
 }
-
 .menu-card p {
   padding: 0 15px;
   color: #666;
 }
-
 .menu-card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* PA LECHON TARIPA */
+.table-container {
+  overflow-x: auto; /* horizontal scroll for small screens */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 300px; /* ensures scroll on small devices */
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+thead th {
+  background: #ff9800; /* orange header */
+  color: #fff;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background: #fff7e6; /* soft orange row */
+}
+
+tbody tr:hover {
+  background: #ffe0b2; /* hover highlight */
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  .price-table .section-title {
+    font-size: 1.6rem;
+  }
+
+  th, td {
+    font-size: 0.9rem;
+    padding: 10px 8px;
+  }
 }
 
 /* LOCATION + CONTACT */
