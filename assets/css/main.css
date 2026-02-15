@@ -270,7 +270,7 @@ tbody tr:hover {
   text-align: center;
 }
 
-.chat-buttons {
+.contact-buttons {
   display: flex;
   flex-wrap: wrap;           /* optional: wrap to next line on very small screens */
   gap: 12px;                 /* space between buttons */
