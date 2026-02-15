@@ -1,0 +1,137 @@
+[
+    { 
+        "type": "Meal",
+        "items":
+        [
+            {
+                "id": "1", "name": "Lechon w/ Rice", 
+                "price": 100.00, 
+                "image": "./assets/images/ordering/menu-1.jpg", 
+                "description": "Classic lechon meal served with rice, a ready-to-eat option perfect for students and anyone craving a quick, satisfying bite."
+            },
+            {
+                "id": "2", "name": "1/4 Kilo Lechon", 
+                "price": 200.00, 
+                "image": "./assets/images/ordering/menu-2.jpg", 
+                "description": "Juicy quarter portion of lechon, crispy skin and tender meat, ideal for sharing with friends or enjoying as a hearty solo meal."
+            },
+            {
+                "id": "3", "name": "1/2 Kilo Lechon", 
+                "price": 400.00, 
+                "image": "./assets/images/ordering/menu-2.jpg", 
+                "description": "Half a lechon with the perfect balance of crispy skin and tender juicy meat, great for barkada hangouts, or weekend family feasts."
+            }
+        ]
+    },
+    { 
+        "type": "Lechon Belly",
+        "items":
+        [
+            {
+                "id": "4",
+                "name": "3 Kilo Lechon Belly",
+                "price": 2000.00,
+                "image": "./assets/images/ordering/menu-belly-1.jpg",
+                "description": "Our signature 3-kilo Lechon Belly – slow-roasted to perfection with shatteringly crispy golden skin and succulent, juicy meat infused with lemongrass, garlic, scallions, and secret spices. Ideal for medium gatherings (serves 10–15). A true Pinoy feast centerpiece!"
+            },
+            {
+                "id": "5",
+                "name": "4 Kilo Lechon Belly",
+                "price": 2500.00,
+                "image": "./assets/images/ordering/menu-belly-1.jpg",
+                "description": "Generous 4-kilo portion of our famous roasted pork belly – ultra-crispy crackling skin that snaps with every bite, paired with tender, flavorful meat bursting with aromatic herbs and garlic. Perfect for larger family meals or events (serves 15–20). Pure indulgence!"
+            },
+            {
+                "id": "6",
+                "name": "5 Kilo Lechon Belly",
+                "price": 3000.00,
+                "image": "./assets/images/ordering/menu-belly-2.jpg",
+                "description": "Our crowd-favorite 5-kilo Lechon Belly – expertly slow-roasted for that irresistible crunch on the outside and melt-in-your-mouth tenderness inside. Stuffed with fragrant lemongrass, garlic, and onions. Great value for big celebrations (serves 20–25)!"
+            },
+            {
+                "id": "7",
+                "name": "5 Kilo & Above/per Kilo",
+                "price": 600.00,
+                "image": "./assets/images/ordering/menu-belly-3.jpg",
+                "description": "Custom Lechon Belly starting at 5 kilos and up – premium roasted pork belly with impossibly crispy skin, juicy layers of flavorful meat, and aromatic stuffing that defines Filipino celebration food. Perfect for events of any size – contact us for bulk pricing and exact weight!"
+            }
+        ]
+    },
+
+    {
+        "type": "Pa Lechon Taripa",
+        "items":
+        [
+    {
+        "id": "8",
+        "name": "30kg & below",
+        "price": 1500.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon up to 30kg – slow-roasted with ultra-crispy skin and tender, juicy meat. Perfect size for small to medium gatherings."
+    },
+    {
+        "id": "9",
+        "name": "31kg – 35kg",
+        "price": 1750.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 31–35kg – perfectly roasted with irresistible crispy crackling and flavorful, succulent meat inside."
+    },
+    {
+        "id": "10",
+        "name": "36kg – 40kg",
+        "price": 2000.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 36–40kg – generous size with golden crispy skin and moist, tasty meat. Great for larger family events."
+    },
+    {
+        "id": "11",
+        "name": "41kg – 45kg",
+        "price": 2225.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 41–45kg – impressive centerpiece with perfect crispy skin and juicy, well-seasoned meat throughout."
+    },
+    {
+        "id": "12",
+        "name": "46kg – 50kg",
+        "price": 2500.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 46–50kg – excellent choice for big parties with signature crispy exterior and tender, flavorful pork."
+    },
+    {
+        "id": "13",
+        "name": "51kg – 55kg",
+        "price": 2750.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 51–55kg – very large size with ultra-crispy skin and juicy, aromatic meat. Ideal for major celebrations."
+    },
+    {
+        "id": "14",
+        "name": "56kg – 60kg",
+        "price": 3000.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 56–60kg – premium large roast with perfect crackling skin and moist, delicious meat all throughout."
+    },
+    {
+        "id": "15",
+        "name": "61kg – 65kg",
+        "price": 3250.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 61–65kg – extra large size featuring golden crispy skin and tender, richly flavored pork."
+    },
+    {
+        "id": "16",
+        "name": "66kg – 70kg",
+        "price": 3500.00,
+        "image": "./assets/images/ordering/pa-lechon-1.jpg",
+        "description": "Whole lechon 66–70kg – our biggest standard size with outstanding crispy skin and juicy, flavorful meat. Perfect for very large events."
+    },
+    {
+        "id": "17",
+        "name": "71kg & Above / per kilo",
+        "price": 600.00,
+        "image": "./assets/images/ordering/lechon-whole-custom.jpg",
+        "description": "Custom whole lechon starting at 71kg and above – priced per kilo. Premium roasted pork with impossibly crispy skin, juicy meat, and aromatic stuffing. Contact us for exact weight and bulk pricing!"
+    }
+]
+    }
+]
